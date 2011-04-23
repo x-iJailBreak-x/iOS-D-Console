@@ -1,0 +1,81 @@
+@echo off
+cls
+title iOS-D Console Release
+color f9
+
+echo  -------------------------------------
+echo //p0wersurge proudly presents: iOS-D//
+echo -------------------------------------
+echo //Console release; version 0.1b//
+echo --------------------------------
+pause
+
+:reask
+
+@echo off
+cls
+title Choose Your Download
+
+echo 1) Jailbreak Software
+echo 2) Official IPSWs
+echo 3) sn0wbreeze IPSWs
+
+echo Type a number & press enter.
+@echo off
+set /p a=1 2 3
+if "%a%"=="1" goto :1
+if "%a%"=="2" goto :2
+if "%a%"=="3" goto :3
+
+echo -
+echo Answer was not 1, 2 or 3.
+echo -
+@echo off
+goto :reask
+
+:1
+
+@echo off
+title Jailbreak Software
+cls
+
+echo Please choose the jailbreak software you'd like to download
+
+echo 1) sn0wbreeze
+echo 2) redsn0w
+echo 3) greenpois0n
+echo 4) limera1n
+echo 5) seas0npass
+
+echo Type a number & press enter.
+@echo off
+set /p a=1 2 3 4 5
+if "%a%"=="1" goto :11
+if "%a%"=="2" goto :12
+if "%a%"=="3" goto :13
+if "%a%"=="4" goto :14
+if "%a%"=="5" goto :15
+
+echo -
+echo Answer was not 1, 2, 3, 4 or 5.
+echo -
+@echo off
+goto :1
+
+:11
+
+echo  -------------
+echo //sn0wbreeze//
+echo -------------
+echo v2.6
+echo +-----------+
+echo |Information|
+echo +-----------+
+echo ^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^
+echo Use sn0wbreeze to create custom IPSW files for use in iTunes.
+echo v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+echo +--------+
+echo |Download|
+echo +--------+
+echo MD5 Checksum of p0wersurge.com sn0wbreeze:
+echo 
